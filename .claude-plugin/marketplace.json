@@ -1,0 +1,22 @@
+{
+  "name": "teamsparta-skills",
+  "owner": {
+    "name": "teamsparta-biz"
+  },
+  "metadata": {
+    "description": "팀스파르타 공유 스킬 마켓플레이스",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "notion-lookup",
+      "description": "Notion 강의 대시보드 조회 (MCP 서버 연결 필요)",
+      "version": "2.0.0",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/notion-lookup"
+      ]
+    }
+  ]
+}

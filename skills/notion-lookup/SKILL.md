@@ -1,11 +1,11 @@
 ---
-description: Notion 강의 대시보드를 조회하고 Markdown으로 변환합니다.
-argument-hint: [옵션]
-author: yunseokchoi-teamsparta
-version: 2.0.0
-tags:
-  - data
-  - notion
+name: notion-lookup
+description: >
+  Notion 강의 대시보드를 조회하고 Markdown으로 변환합니다.
+  MCP 서버를 통해 lecture_search, lecture_detail, lecture_proposals 도구를 제공합니다.
+metadata:
+  author: yunseokchoi-teamsparta
+  version: "2.0.0"
 ---
 
 ## 실행 방법
@@ -35,6 +35,7 @@ tags:
 | `tool` | 사용 툴 (ChatGPT, Python, Excel 등) |
 | `topic` | 주제 (데이터 분석, 업무 자동화 등) |
 | `product` | 상품명 (AI Literacy, PBL 등) |
+| `database` | 데이터베이스 이름 (기본: lecture_dashboard) |
 | `limit` | 반환 최대 건수 (기본 50) |
 
 ### lecture_detail
@@ -87,7 +88,7 @@ tags:
 
 ### 자연어 매핑 테이블
 
-상세 매핑은 [reference.md](reference.md)를 참조하세요.
+상세 매핑은 [references/reference.md](references/reference.md)를 참조하세요.
 
 ## 실행 후
 
